@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TSScheduler_Example' do
+  pod 'TSScheduler', :path => '../'
+
+  target 'TSScheduler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
