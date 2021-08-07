@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1FF21488ED908002C96010E0 /* Pods_TSScheduler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSScheduler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B0C20EA3653515E7900E444 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2B0C20EA3653515E7900E444 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3A93DA186F0BA2A0126F3CD3 /* Pods-TSScheduler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSScheduler_Example.debug.xcconfig"; path = "Target Support Files/Pods-TSScheduler_Example/Pods-TSScheduler_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		434059E7226A0B2928743A8E /* Pods_TSScheduler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSScheduler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		501D6E39A970D8653B45C271 /* Pods-TSScheduler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSScheduler_Tests.release.xcconfig"; path = "Target Support Files/Pods-TSScheduler_Tests/Pods-TSScheduler_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		611E30F29FE73FFF96570C56 /* Pods-TSScheduler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSScheduler_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TSScheduler_Tests/Pods-TSScheduler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B448B1CD0E1715F60B09A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B448B1CD0E1715F60B09A15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6CF9E8D9B975830732C14654 /* Pods-TSScheduler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSScheduler_Example.release.xcconfig"; path = "Target Support Files/Pods-TSScheduler_Example/Pods-TSScheduler_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C23BF98F22B974644FC280AC /* TSScheduler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TSScheduler.podspec; path = ../TSScheduler.podspec; sourceTree = "<group>"; };
+		C23BF98F22B974644FC280AC /* TSScheduler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TSScheduler.podspec; path = ../TSScheduler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				611E30F29FE73FFF96570C56 /* Pods-TSScheduler_Tests.debug.xcconfig */,
 				501D6E39A970D8653B45C271 /* Pods-TSScheduler_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

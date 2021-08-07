@@ -1,0 +1,16 @@
+PODS:
+  - TSScheduler (0.1.0)
+
+DEPENDENCIES:
+  - TSScheduler (from `../`)
+
+EXTERNAL SOURCES:
+  TSScheduler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSScheduler: 33b3976bac98cc53ec671de894ad9554301dcf26
+
+PODFILE CHECKSUM: a26009f7bfcb21a3d2461241e4d978cf53cab027
+
+COCOAPODS: 1.10.2

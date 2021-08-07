@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3D0DD2F626948400427252AA00F24C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		18B34352ED281F559A661CF6194299C2 /* Pods-TSScheduler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B09B488D4B0F7C74E7E6DFE6DD8884 /* Pods-TSScheduler_Example-dummy.m */; };
+		2E9122C7AC2F25DDFFBAC208B8B1AEBB /* TSScheduler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6679DBA59274832B4E402FEFDBE120F /* TSScheduler-dummy.m */; };
+		2FF7981D4E5D91B85FE122B0770820F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		85E2CE0844BC2A0928AA6F9F38A9E2F9 /* Pods-TSScheduler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6E8A522B2633EE09F99376457E655D /* Pods-TSScheduler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F6F77C726BED42600794E49 /* TSScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6F77C526BED42600794E49 /* TSScheduler.h */; };
+		8F6F77C826BED42600794E49 /* TSScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6F77C626BED42600794E49 /* TSScheduler.m */; };
+		B4EE1F8C76476B649D0E0AD3DCE6DC55 /* Pods-TSScheduler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E4D26D98D8AB075F41F3E179FCC9B1 /* Pods-TSScheduler_Tests-dummy.m */; };
+		D10835B0EC76CEB6B82C8F45AE51CF5D /* TSScheduler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4405372ECC9D0FEA6B12B6558156D4DA /* TSScheduler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB355E6F74734AAB8DDB3F45EBE0183B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F60F1D9CF301DD8B0F04DDC2EB5A1D64 /* Pods-TSScheduler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBDB6BF1167ABA1E85B5EF2A118114D /* Pods-TSScheduler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AA5F1B1128D862CAFEEFDF53CA6C54F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD84C036B8DF2451FAA6F240B5D7F328;
+			remoteInfo = TSScheduler;
+		};
+		890DD74073DDCB6ECE88FD1AA1F799DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A322BBBB654BB2EE4ABBB518B76C6F;
+			remoteInfo = "Pods-TSScheduler_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E4D26D98D8AB075F41F3E179FCC9B1 /* Pods-TSScheduler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSScheduler_Tests-dummy.m"; sourceTree = "<group>"; };
+		1425E6A678693BE960DEC53748F9A588 /* Pods-TSScheduler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSScheduler_Example.modulemap"; sourceTree = "<group>"; };
+		1497D4603344C97529C5DEA833B450D8 /* TSScheduler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TSScheduler.modulemap; sourceTree = "<group>"; };
+		187E311AFEFE086E098A1836EBDD4252 /* Pods-TSScheduler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSScheduler_Example-Info.plist"; sourceTree = "<group>"; };
+		2094D90E56A9E05FEF2988F0BA3691BE /* Pods-TSScheduler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSScheduler_Tests-Info.plist"; sourceTree = "<group>"; };
+		24DC43D8C97C4B05FDD9825293DF0784 /* Pods-TSScheduler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSScheduler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		354F8F7AD7BB7BEFDB4AF66699EC736F /* TSScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSScheduler.release.xcconfig; sourceTree = "<group>"; };
+		3FED11C50EECFABF9D392AD06F665E7F /* TSScheduler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TSScheduler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		428F58989E3F609C4A5AF521ECCB0FE3 /* Pods-TSScheduler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSScheduler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4293B228F1BAE261D4E52500EF7CE91D /* Pods-TSScheduler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSScheduler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4405372ECC9D0FEA6B12B6558156D4DA /* TSScheduler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSScheduler-umbrella.h"; sourceTree = "<group>"; };
+		46204FCA11D9F8F15B35454528AC923B /* TSScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSScheduler.debug.xcconfig; sourceTree = "<group>"; };
+		4E2B28A13EFF5833298EE3892C82B88C /* TSScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EAA83E4F5DEF6973B4605FFA57F6D0 /* Pods-TSScheduler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSScheduler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84ED6F65AF709BDFB6A523B7AB2D9FB3 /* Pods_TSScheduler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSScheduler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CBDB6BF1167ABA1E85B5EF2A118114D /* Pods-TSScheduler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSScheduler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8F6F77C526BED42600794E49 /* TSScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSScheduler.h; path = TSScheduler/Classes/TSScheduler.h; sourceTree = "<group>"; };
+		8F6F77C626BED42600794E49 /* TSScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSScheduler.m; path = TSScheduler/Classes/TSScheduler.m; sourceTree = "<group>"; };
+		8FC1A1EEDB87D71B0336DCE99F3ADACA /* Pods-TSScheduler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSScheduler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		971A3352FD0EEB69E14F832309C06664 /* TSScheduler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSScheduler-prefix.pch"; sourceTree = "<group>"; };
+		99730A11F943DF50C106B0ED526292C3 /* Pods-TSScheduler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TSScheduler_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6BF222423883B9BFD7DA48166AC6944 /* Pods-TSScheduler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSScheduler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AEF35966F4A1C9A18BC06CB4A2FA93C8 /* Pods-TSScheduler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSScheduler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0FE8CFD343FC2D615B5A837D22C3302 /* Pods_TSScheduler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSScheduler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28E4D4EA660192F478545F17979552A /* Pods-TSScheduler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSScheduler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6679DBA59274832B4E402FEFDBE120F /* TSScheduler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSScheduler-dummy.m"; sourceTree = "<group>"; };
+		D1AF34515ED9F302438D08645BE04329 /* Pods-TSScheduler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSScheduler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F386B7D86851D4EA0834722CA59F43 /* TSScheduler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TSScheduler-Info.plist"; sourceTree = "<group>"; };
+		DA6E8A522B2633EE09F99376457E655D /* Pods-TSScheduler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TSScheduler_Example-umbrella.h"; sourceTree = "<group>"; };
+		F4B09B488D4B0F7C74E7E6DFE6DD8884 /* Pods-TSScheduler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSScheduler_Example-dummy.m"; sourceTree = "<group>"; };
+		F4B68281039B406BC0EFBC141B47D189 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F92839804CD736FB90D31864212B2B1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66611AA0E94D762F60A3DB138C3D6E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF7981D4E5D91B85FE122B0770820F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666FD6E05157B6FB2F95707082474226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB355E6F74734AAB8DDB3F45EBE0183B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA258787AC74FFC689D6DDFACD33C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3D0DD2F626948400427252AA00F24C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC5F448B7166175D7723320E0EE972B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF64679B198B60BB1CE92C67BC92D0F5 /* TSScheduler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4FB2872333C3B70D14256BEF2F9EBBAD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80C31C0C20DD74C5F084B3FF3B80E60 /* Pods-TSScheduler_Example */,
+				59BC2CAAFCFF71319B51895556E5A451 /* Pods-TSScheduler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5053A23FCB956D88C921A4042A3BF536 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F92839804CD736FB90D31864212B2B1E /* LICENSE */,
+				F4B68281039B406BC0EFBC141B47D189 /* README.md */,
+				3FED11C50EECFABF9D392AD06F665E7F /* TSScheduler.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59BC2CAAFCFF71319B51895556E5A451 /* Pods-TSScheduler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99730A11F943DF50C106B0ED526292C3 /* Pods-TSScheduler_Tests.modulemap */,
+				AEF35966F4A1C9A18BC06CB4A2FA93C8 /* Pods-TSScheduler_Tests-acknowledgements.markdown */,
+				428F58989E3F609C4A5AF521ECCB0FE3 /* Pods-TSScheduler_Tests-acknowledgements.plist */,
+				02E4D26D98D8AB075F41F3E179FCC9B1 /* Pods-TSScheduler_Tests-dummy.m */,
+				2094D90E56A9E05FEF2988F0BA3691BE /* Pods-TSScheduler_Tests-Info.plist */,
+				8CBDB6BF1167ABA1E85B5EF2A118114D /* Pods-TSScheduler_Tests-umbrella.h */,
+				D1AF34515ED9F302438D08645BE04329 /* Pods-TSScheduler_Tests.debug.xcconfig */,
+				4293B228F1BAE261D4E52500EF7CE91D /* Pods-TSScheduler_Tests.release.xcconfig */,
+			);
+			name = "Pods-TSScheduler_Tests";
+			path = "Target Support Files/Pods-TSScheduler_Tests";
+			sourceTree = "<group>";
+		};
+		79D4DB7B325B56608F03D78EF3C345EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1497D4603344C97529C5DEA833B450D8 /* TSScheduler.modulemap */,
+				B6679DBA59274832B4E402FEFDBE120F /* TSScheduler-dummy.m */,
+				D9F386B7D86851D4EA0834722CA59F43 /* TSScheduler-Info.plist */,
+				971A3352FD0EEB69E14F832309C06664 /* TSScheduler-prefix.pch */,
+				4405372ECC9D0FEA6B12B6558156D4DA /* TSScheduler-umbrella.h */,
+				46204FCA11D9F8F15B35454528AC923B /* TSScheduler.debug.xcconfig */,
+				354F8F7AD7BB7BEFDB4AF66699EC736F /* TSScheduler.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TSScheduler";
+			sourceTree = "<group>";
+		};
+		C80C31C0C20DD74C5F084B3FF3B80E60 /* Pods-TSScheduler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1425E6A678693BE960DEC53748F9A588 /* Pods-TSScheduler_Example.modulemap */,
+				59EAA83E4F5DEF6973B4605FFA57F6D0 /* Pods-TSScheduler_Example-acknowledgements.markdown */,
+				24DC43D8C97C4B05FDD9825293DF0784 /* Pods-TSScheduler_Example-acknowledgements.plist */,
+				F4B09B488D4B0F7C74E7E6DFE6DD8884 /* Pods-TSScheduler_Example-dummy.m */,
+				A6BF222423883B9BFD7DA48166AC6944 /* Pods-TSScheduler_Example-frameworks.sh */,
+				187E311AFEFE086E098A1836EBDD4252 /* Pods-TSScheduler_Example-Info.plist */,
+				DA6E8A522B2633EE09F99376457E655D /* Pods-TSScheduler_Example-umbrella.h */,
+				8FC1A1EEDB87D71B0336DCE99F3ADACA /* Pods-TSScheduler_Example.debug.xcconfig */,
+				B28E4D4EA660192F478545F17979552A /* Pods-TSScheduler_Example.release.xcconfig */,
+			);
+			name = "Pods-TSScheduler_Example";
+			path = "Target Support Files/Pods-TSScheduler_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0FC5F448B7166175D7723320E0EE972B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E374DDCCB4B195EC0356F7E20C10E871 /* Products */,
+				4FB2872333C3B70D14256BEF2F9EBBAD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF64679B198B60BB1CE92C67BC92D0F5 /* TSScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				8F6F77C526BED42600794E49 /* TSScheduler.h */,
+				8F6F77C626BED42600794E49 /* TSScheduler.m */,
+				5053A23FCB956D88C921A4042A3BF536 /* Pod */,
+				79D4DB7B325B56608F03D78EF3C345EA /* Support Files */,
+			);
+			name = TSScheduler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E374DDCCB4B195EC0356F7E20C10E871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84ED6F65AF709BDFB6A523B7AB2D9FB3 /* Pods_TSScheduler_Example.framework */,
+				B0FE8CFD343FC2D615B5A837D22C3302 /* Pods_TSScheduler_Tests.framework */,
+				4E2B28A13EFF5833298EE3892C82B88C /* TSScheduler.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		152109CBE64398F43EBAA0DCEC3282DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10835B0EC76CEB6B82C8F45AE51CF5D /* TSScheduler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77EC87057B0B7D59B24162A3A6429FE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60F1D9CF301DD8B0F04DDC2EB5A1D64 /* Pods-TSScheduler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ED54339E5B9F3CD72EB608C8291BCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E2CE0844BC2A0928AA6F9F38A9E2F9 /* Pods-TSScheduler_Example-umbrella.h in Headers */,
+				8F6F77C726BED42600794E49 /* TSScheduler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B921E96DFB08AD1F6E956A9A085F721D /* Pods-TSScheduler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA37EB9BE0E0D8668106EE9DA6B9C69 /* Build configuration list for PBXNativeTarget "Pods-TSScheduler_Tests" */;
+			buildPhases = (
+				77EC87057B0B7D59B24162A3A6429FE6 /* Headers */,
+				82562CF82BDE9D5597D7282F5CA76122 /* Sources */,
+				DEA258787AC74FFC689D6DDFACD33C51 /* Frameworks */,
+				2B04B54D57AD22BE3F93F3B7B97CC8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A79D30897955B61834DF644698A9A7A /* PBXTargetDependency */,
+			);
+			name = "Pods-TSScheduler_Tests";
+			productName = "Pods-TSScheduler_Tests";
+			productReference = B0FE8CFD343FC2D615B5A837D22C3302 /* Pods_TSScheduler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0A322BBBB654BB2EE4ABBB518B76C6F /* Pods-TSScheduler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178351637B178AE9227F5B065654FF64 /* Build configuration list for PBXNativeTarget "Pods-TSScheduler_Example" */;
+			buildPhases = (
+				D4ED54339E5B9F3CD72EB608C8291BCC /* Headers */,
+				25CE01BEFEE015595282687695D67F45 /* Sources */,
+				666FD6E05157B6FB2F95707082474226 /* Frameworks */,
+				C15D0DB63E8F10DB5E2AA28AA4B3211A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F63C38B1DAE2CCC4AECF3F04E11E92A /* PBXTargetDependency */,
+			);
+			name = "Pods-TSScheduler_Example";
+			productName = "Pods-TSScheduler_Example";
+			productReference = 84ED6F65AF709BDFB6A523B7AB2D9FB3 /* Pods_TSScheduler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD84C036B8DF2451FAA6F240B5D7F328 /* TSScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D9788EC769BC2A2764E9D65FF7EFB90 /* Build configuration list for PBXNativeTarget "TSScheduler" */;
+			buildPhases = (
+				152109CBE64398F43EBAA0DCEC3282DB /* Headers */,
+				E34C9F4D403C9878247D6E208750495A /* Sources */,
+				66611AA0E94D762F60A3DB138C3D6E3E /* Frameworks */,
+				C65346B0A6CB28021D3EB17DCA88B1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSScheduler;
+			productName = TSScheduler;
+			productReference = 4E2B28A13EFF5833298EE3892C82B88C /* TSScheduler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E374DDCCB4B195EC0356F7E20C10E871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0A322BBBB654BB2EE4ABBB518B76C6F /* Pods-TSScheduler_Example */,
+				B921E96DFB08AD1F6E956A9A085F721D /* Pods-TSScheduler_Tests */,
+				FD84C036B8DF2451FAA6F240B5D7F328 /* TSScheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B04B54D57AD22BE3F93F3B7B97CC8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15D0DB63E8F10DB5E2AA28AA4B3211A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65346B0A6CB28021D3EB17DCA88B1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25CE01BEFEE015595282687695D67F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6F77C826BED42600794E49 /* TSScheduler.m in Sources */,
+				18B34352ED281F559A661CF6194299C2 /* Pods-TSScheduler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82562CF82BDE9D5597D7282F5CA76122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE1F8C76476B649D0E0AD3DCE6DC55 /* Pods-TSScheduler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34C9F4D403C9878247D6E208750495A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E9122C7AC2F25DDFFBAC208B8B1AEBB /* TSScheduler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F63C38B1DAE2CCC4AECF3F04E11E92A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSScheduler;
+			target = FD84C036B8DF2451FAA6F240B5D7F328 /* TSScheduler */;
+			targetProxy = 4AA5F1B1128D862CAFEEFDF53CA6C54F /* PBXContainerItemProxy */;
+		};
+		9A79D30897955B61834DF644698A9A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TSScheduler_Example";
+			target = E0A322BBBB654BB2EE4ABBB518B76C6F /* Pods-TSScheduler_Example */;
+			targetProxy = 890DD74073DDCB6ECE88FD1AA1F799DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		374B26284B38F9D7D715ED88E9046B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4293B228F1BAE261D4E52500EF7CE91D /* Pods-TSScheduler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TSScheduler_Tests/Pods-TSScheduler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TSScheduler_Tests/Pods-TSScheduler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F827508F25389931F2E2ABECFCCB446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FC1A1EEDB87D71B0336DCE99F3ADACA /* Pods-TSScheduler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TSScheduler_Example/Pods-TSScheduler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TSScheduler_Example/Pods-TSScheduler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59EDCD2773F80C4A91AC931800AFB337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28E4D4EA660192F478545F17979552A /* Pods-TSScheduler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TSScheduler_Example/Pods-TSScheduler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TSScheduler_Example/Pods-TSScheduler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63E979046D0A8399C9CDB7FD7A2E7A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354F8F7AD7BB7BEFDB4AF66699EC736F /* TSScheduler.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSScheduler/TSScheduler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSScheduler/TSScheduler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSScheduler/TSScheduler.modulemap";
+				PRODUCT_MODULE_NAME = TSScheduler;
+				PRODUCT_NAME = TSScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6A7ABC901AF14840EEA27DD68CA40D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46204FCA11D9F8F15B35454528AC923B /* TSScheduler.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TSScheduler/TSScheduler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TSScheduler/TSScheduler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TSScheduler/TSScheduler.modulemap";
+				PRODUCT_MODULE_NAME = TSScheduler;
+				PRODUCT_NAME = TSScheduler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAB66E94F0276C79556E081010010F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1AF34515ED9F302438D08645BE04329 /* Pods-TSScheduler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TSScheduler_Tests/Pods-TSScheduler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TSScheduler_Tests/Pods-TSScheduler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178351637B178AE9227F5B065654FF64 /* Build configuration list for PBXNativeTarget "Pods-TSScheduler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F827508F25389931F2E2ABECFCCB446 /* Debug */,
+				59EDCD2773F80C4A91AC931800AFB337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D9788EC769BC2A2764E9D65FF7EFB90 /* Build configuration list for PBXNativeTarget "TSScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A7ABC901AF14840EEA27DD68CA40D0 /* Debug */,
+				63E979046D0A8399C9CDB7FD7A2E7A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA37EB9BE0E0D8668106EE9DA6B9C69 /* Build configuration list for PBXNativeTarget "Pods-TSScheduler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB66E94F0276C79556E081010010F6A /* Debug */,
+				374B26284B38F9D7D715ED88E9046B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
